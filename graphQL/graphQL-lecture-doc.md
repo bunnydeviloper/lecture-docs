@@ -1,14 +1,14 @@
 # Lecture doc for graphQL
 
 ## Background
-REST API
-/:roomId
-/:roomId/messages
-/:roomId/messages/:messageId
-/:roomId/moremessages/:start/:amount
+REST API  
+/:roomId  
+/:roomId/messages  
+/:roomId/messages/:messageId  
+/:roomId/moremessages/:start/:amount  
 
-GraphQL
-/graphql
+GraphQL  
+/graphql  
 
 **Advantage**: 
 * Combine multiple URLs to 1 URL to get data
@@ -45,7 +45,7 @@ type Room {
 ```
 
 **RESOLVER**
-*How to get data: send query to db and return data*
+*How to get data: send query to db and return data*  
 **NOTE**: format of data request has to match with typedef above
 
 ```javascript
