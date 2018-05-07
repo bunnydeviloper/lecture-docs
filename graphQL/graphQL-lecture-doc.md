@@ -32,7 +32,13 @@ app.use('/graphql', cors(), bodyParser.json(), graphqlExpress({ schema }));
 const typeDefs = `
 scalar Long
 
-type Query { ... }
+type Query { 
+  users(id: Int, name: String, is_active: Boolean, whereJoin: String): [User]
+  getUsersInRoom(id: Int): [User]
+  getUsersNotInRoom(id: Int): [User]
+  getUserRooms(id: Int): [Room]
+  getOtherRooms(id: Int): [Room]
+}
 
 type Room {
   id: Int
