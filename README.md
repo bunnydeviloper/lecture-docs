@@ -1,4 +1,5 @@
-# Comprehensive notes for learning JavaScript and Web Development
+# JavaScript and Web Development
+# A Comprehensive Guide
 
 ### Organized by topics
 
