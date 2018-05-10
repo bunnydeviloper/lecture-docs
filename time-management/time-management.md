@@ -8,11 +8,13 @@
 
 - Create good habits, know what does and doesn't work
 
-- Pomodoro method
+- Pomodoro method, time boxing, keep any side thought on the side, be focus
 
 - 2 week trial period
 
 - Refect, modify, apply, repeat, be consistent
+
+- Assess amount completed, quality of work, lesson learned
 
 - Try hard and try often, a little bit everyday (tortoise and the hare).
 
