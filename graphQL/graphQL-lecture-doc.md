@@ -113,3 +113,19 @@ getUserRooms: function(userId, cb) {
 ## Advance
 
 Mutation
+
+#### Personal notes:
+- Make sure you're running both client side and server side.
+- Make sure you change backend URLs to your current server url  
+(src/db/chatdb.js -> BASE url and Domain url)
+- Simple demonstration without touching database:
+```javascript
+typeDef: getSophia: String
+resolver: return 'Hello' (no need to return Promise and all that)
+```
+- Whenever code is modified -> refresh GraphIQL
+- Test on GraphIQL:
+	1. First: (after modified typedef and resolver) check the response, this is still RestAPI response.
+	2. Seconde: modified client side (chatdb.js), check the response again, this is GraphQL response. Make sure they match!
+	3. Third: check back your client side on browser, make sure nothing breaks.
+	4. Fourth: remove RestAPI routers code, check again, make sure nothing breaks.
