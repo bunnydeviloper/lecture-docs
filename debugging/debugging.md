@@ -12,7 +12,7 @@
 
 - *Lastly*: search on Google or StackOverflow (keywords, phrases...), look through documentations, ask a friend for help
 
-> ### **Insanity: Doing the same thing over and over and again and expecting different results.** 
+- > ### **Insanity: Doing the same thing over and over and again and expecting different results.** 
 
 - Modified something each test cases, console.log the result, see if it matches your assumption.
 
